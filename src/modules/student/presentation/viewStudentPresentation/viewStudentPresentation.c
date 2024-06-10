@@ -58,7 +58,6 @@ void viewStudentPresentation(Student *student) {
     }
 
     label = gtk_label_new(grades_str->str);
-    printf("Grades label: %s\n", gtk_label_get_text(GTK_LABEL(label)));
     gtk_label_set_xalign(GTK_LABEL(label), 0);
     gtk_grid_attach(GTK_GRID(grid), label, 0, 5, 1, 1);
 
